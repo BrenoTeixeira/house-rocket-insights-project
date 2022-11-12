@@ -139,9 +139,9 @@ def line_p(data, date, target_col, filter_col, threshold):
     return fig
 
 def header(img_path):
-
-    image = Image.open(img_path)
-    st.title('INSIGHT PROJECT - HOUSE ROCKET', )
+    
+    image = Image.open(img_path + r'\residential.png')
+    st.title('INSIGHT PROJECT - HOUSE ROCKET')
     st.image(image=image, use_column_width=True, output_format='JPEG')
 
 def data_overview(data, zipcode_filter):
@@ -299,7 +299,7 @@ if __name__ == '__main__':
     # Get Data
     raw_data_path = r'E:\users\b_tc\Comunidade_DS\repos_ds\kc_houses\data'
     path = r'E:\users\b_tc\Comunidade_DS\repos_ds\kc_houses\outputs'
-    img_path = r'E:\users\b_tc\Comunidade_DS\repos_ds\kc_houses\img\residential.png'
+    img_path = r'E:\users\b_tc\Comunidade_DS\repos_ds\kc_houses\img'
     
     ur = 'https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson'
     
