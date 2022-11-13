@@ -299,14 +299,14 @@ if __name__ == '__main__':
     # Get Data
     raw_data_path = 'data'
     path = 'outputs'
-    img_path = glob.glob('**/*.png')[0]
+    img_path = glob.glob('../Webapp/**/*.png')[0]
     
     ur = 'https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson'
     
     
     df = get_data(raw_data_path)[0]
-    suggestions = get_data(path)[1]
-    sell_data = get_data(path)[0]
+    suggestions = get_data(path)[0]
+    sell_data = get_data(path)[1]
     geofile = get_geofile(ur)
 
     ##### Transformation #####
