@@ -23,7 +23,7 @@ st.set_page_config(layout="wide")
 # Extract
 def get_data(path):
     # Finds all the files with .csv extension
-    all_files = glob.glob(path + '\*.csv')
+    all_files = glob.glob(path + '/*.csv')
     dataframes = [pd.read_csv(filename) for filename in all_files]
     
     return dataframes
@@ -140,7 +140,7 @@ def line_p(data, date, target_col, filter_col, threshold):
 
 def header(img_path):
     
-    image = Image.open(img_path + r'\residential.png')
+    image = Image.open(img_path + '/residential.png')
     st.title('INSIGHT PROJECT - HOUSE ROCKET')
     st.image(image=image, use_column_width=True, output_format='JPEG')
 
@@ -297,9 +297,9 @@ def financial_results(data):
 if __name__ == '__main__':
 
     # Get Data
-    raw_data_path = 'data/'
-    path = 'outputs/'
-    img_path = 'images/'
+    raw_data_path = 'data'
+    path = 'outputs'
+    img_path = 'images'
     
     ur = 'https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson'
     

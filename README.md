@@ -156,7 +156,7 @@ After finding the recommended price to buy the property, we filter the data with
 
 <img src='img\recom_props.png'/>
 
-[complete table](\data\suggestions_df.md)
+[complete table](tables\suggestions_df.md)
 
 2. Once bought, for what price should the company sell it?
 
@@ -164,7 +164,7 @@ For the price to sell the property bought, we use the ARV calculated in the prev
 
 <img src='img\sell_props.png'/>
 
-[complete table](\data\sell_data_df.md)
+[complete table](tables\sell_data_df.md)
 
 ![green-divider](https://user-images.githubusercontent.com/7065401/52071924-c003ad80-2562-11e9-8297-1c6595f8a7ff.png)
 
