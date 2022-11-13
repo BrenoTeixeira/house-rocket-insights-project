@@ -297,9 +297,9 @@ def financial_results(data):
 if __name__ == '__main__':
 
     # Get Data
-    raw_data_path = 'data'
-    path = 'outputs'
-    img_path = 'img'
+    raw_data_path = 'data/'
+    path = 'outputs/'
+    img_path = 'images/'
     
     ur = 'https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson'
     

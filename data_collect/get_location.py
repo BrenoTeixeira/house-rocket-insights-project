@@ -19,12 +19,12 @@ def locations(df):
 
 def save_data(df):
     df.drop(columns='coord', inplace=True)
-    df.to_csv(r'E:\users\b_tc\repos\kc_houses\data_collect\address_test.csv', index=False)
+    df.to_csv('data/address.csv', index=False)
 
 if __name__ == '__main__':
 
-    data = pd.read_csv(r'E:\users\b_tc\repos\kc_houses\data\kc_house_data.csv', usecols=['id', 'lat', 'long'])
-    data = data.head()
+    data = pd.read_csv('data/kc_house_data.csv', usecols=['id', 'lat', 'long'])
+    data = data
 
     locations_df = locations(df=data)
 
