@@ -140,7 +140,7 @@ def line_p(data, date, target_col, filter_col, threshold):
 
 def p_header(img_path):
     
-    image = Image.open(img_path + 'residential.png')
+    image = Image.open(img_path)
     st.title('INSIGHT PROJECT - HOUSE ROCKET')
     st.image(image=image, use_column_width=True, output_format='JPEG')
 
@@ -299,7 +299,7 @@ if __name__ == '__main__':
     # Get Data
     raw_data_path = 'data'
     path = 'outputs'
-    img_path = 'images/'
+    img_path = glob.glob('**/*.png')[0]
     
     ur = 'https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson'
     
