@@ -172,10 +172,10 @@ For the price to sell the property bought, we use the ARV calculated in the prev
 
 Business Metrics||
 ----------------|------------
-Investment| R$ 119,797,824..01
-Total Revenue| R$ 183,974,824.64
-Total Profit| R$ 64,177,000.63
-Return on Invetment| 53.57 %
+Investment| R$ 119,748,171.01
+Total Revenue| R$ 183,512,805.53
+Total Profit| R$ 63,764,634.53
+Return on Invetment| 53.25 %
 
 ![green-divider](https://user-images.githubusercontent.com/7065401/52071924-c003ad80-2562-11e9-8297-1c6595f8a7ff.png)
 
