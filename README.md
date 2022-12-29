@@ -4,7 +4,7 @@
 
 # Objective
 
-Genarate insights and find better business opportunities for a real estate company.
+Generate insights and find better business opportunities for a real estate company.
   
 # Context
 

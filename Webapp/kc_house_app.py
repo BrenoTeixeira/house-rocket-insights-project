@@ -305,8 +305,8 @@ if __name__ == '__main__':
     
     
     df = get_data(raw_data_path)[0]
-    suggestions = get_data(path)[0]
-    sell_data = get_data(path)[1]
+    suggestions = get_data(path)[1]
+    sell_data = get_data(path)[0]
     geofile = get_geofile(ur)
 
     ##### Transformation #####
